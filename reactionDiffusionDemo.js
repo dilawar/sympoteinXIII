@@ -32,7 +32,7 @@ function setup() {
   var resetButton = createButton("Reset");
   resetButton.mousePressed(resetSketch);
   resetButton.position(0,740);
-  frameRate(150);
+  frameRate(50);
 }
 
 function updatedA(){
